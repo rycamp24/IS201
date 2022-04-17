@@ -1,0 +1,74 @@
+body {
+    background-color: rgb(201, 201, 201);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+a:visited {
+    color: blue;
+}
+
+.absolute {
+    position: absolute;
+}
+
+.header {
+    top: 8px;
+    left: 8px;
+    right: 8px;
+    height: 80px;
+    border-bottom: solid 1px rgb(77, 77, 77);
+}
+
+.headlink {
+    float: right;
+}
+
+.tableaubody {
+    top: 96px;
+    left: 150px;
+    right: 150px;
+    bottom: 96px;
+    margin-bottom: 200px;
+}
+
+.footer {
+    left: 8px;
+    right: 8px;
+    border-top: solid 1px rgb(77, 77, 77);
+    bottom: 8px;
+    top: 4925px;
+    height: 80px;
+    text-align: center;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+
+.title {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline;
+    color: rgb(53, 53, 53);
+    text-align: center;
+}
+
+
+.caption {
+    font-style: italic;
+    text-align: center;
+}
+
+.tableaubackground {
+    background-image: url('../images/background3.jpg');
+    background-size: cover;
+}
